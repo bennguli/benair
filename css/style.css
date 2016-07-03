@@ -1,62 +1,161 @@
-html{
-    align-content: center;
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+         -box-sizing: border-box;
+}
+.container{
+    width: 100%;
     
 }
-
-
-
-body{
-    font-size: 35px;
-    background-color: chartreuse;
-    width: 600px;
-    
-}
-.container-about{
-    display: inline-block;
-    font-size: 35px;
-    margin top:20px;
-    margin-bottom: 20border-image-source: 
-    max-width: 600px;
-    align-content: center;
-}
-.container-contacts{
-    border-image-slice: url(../images/slider.jpg);
-    display: inline-block;
-    align-content: center;
-    font-size: 35px;
-    max-width: 600px;
-    margin-top: 20px;
-}
-.img{
-    display: inline-block;
-    width: 600px;
-    
-}
-h1{
-    font-size-adjust: 35px;
+/*--------------------
+ header
+-----------------------*/
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
-    margin-bottom: 20px;
 }
-.link{
-    color: black;
-    padding: 20px;
-    align-content: center;
-    margin-bottom: 20px;
-    backface-visibility: visible;
-    border-bottom-style: none;
-    text-decoration: none;
-    display: inline-block;
+header nav a{
+    text-decoration:none;
+    
+    font-size: 15px;
+    color: darkgrey;
+    text-transform: uppercase;
+   padding: 10px 50px 10px 50px;
 }
-a{
-    text-decoration: none;
+header nav a:hover{
+    color: darkkhaki;
 }
-.footer{
-    color: black;
-    padding: 20px;
-    align-content: center;
-    margin-bottom: 20px;
-    backface-visibility: visible;
-    border-bottom-style: none;
+/*-------------------------
+footer
+--------------------------*/
+footer{
+    padding: 15px 0 15px 0;
+    background-color: #bfd5c9;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer nav a{
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 10px;
+    color: white;
+    
+}
+footer nav a:hover{
+    color: darkkhaki;
+}
+/*-------------
+hero section
+---------------*/
+.hero{
+    padding: 150px; 0 150px 0;
+    text-align:center;
+    background-image: url(../images/okk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1250px;
+    height: 819px;
+}
+.hero h1{
+    font-size: 50px;
+    color: #8c8c8c;
+    
+}
+.hero a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid  #8cff66;
+    border-radius: 5px;
+    background-color:  #8cff66;
+}
+.hero a:hover{
+    color: darkgray;
 }
 
+/*----------------------------
+ about section
+----------------------------*/
+.about{
+    padding: 0 0 100px 0;
+    margin-top: 0;
+}
+.about h2{
+   
+    font-size: 30px;
+    color: darkgrey;
+    text-align:center;
+   padding-bottom: 25px;
+    
+}
+.about p{
+    padding: 10px 100px 10px 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #595959;
+}
+/*-----------------------
+contacts
+------------------------*/
+.contacts{
+    padding: 20px 350px 30px 350px;
+   color: darkgrey;
+    font-size: 20px;
+    background-color: #f2f2f2;
+   
+    
+}
+.contacts h2{
+    font-size: 30px;
+    color: darkgrey;
+    text-align:center;
+}
+
+form,
+fieldset,
+label,
+input{
+    display: block;
+    padding: 10px;
+     font-family: 'Poiret One', cursive;
+}
+.btn{
+    padding: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    background-color: beige;
+   
+}
+/*--------------------
+LOCATION
+---------------------*/
+.location{
+    padding: 10px 0 5px 30px;
+    line-height: 20px;
+}
+.location h2{
+  font-size: 30px;
+    color: darkgrey;
+    text-align:center;
+ 
+}
+.col-1-3{
+    width: 33.3%;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.col-2-3{
+    66.6%;
+}
+.col-1-3,
+.col-2-3{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    
+}
